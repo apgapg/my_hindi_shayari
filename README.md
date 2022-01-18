@@ -1,6 +1,8 @@
 # Svelte + TS + Vite
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+A Shayari app built on top of Svelte and Tailwindcss.
+
+<img src="./res/s1.png" alt="img"/>
 
 ## Recommended IDE Setup
 
