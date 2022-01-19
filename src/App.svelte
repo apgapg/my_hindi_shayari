@@ -1,17 +1,20 @@
 <script lang="ts">
     const datas = [
         "क्या बात करें तेरे आखों की\nएक जेल है बिन सलाखों की",
-        "मेरे दामन में काटों के सिवा कुछ भी नहीं\n" +
-        "आप फूलों के खरीदार नजर आते हैं",
-        "हर घूंट में तेरी यादें बसीं हैं\n" + "केसे कह दूँ, शराब कड़वी है",
-        "बेच दूँ क्या सारी परेशानियां?\n" + "मौत अछा दाम दे रहीं है",
-        "थोड़ा इंतजार तो कर लेते\n" + "दिल नहीं, मेरे दिन खराब थे",
-        "तुमारी याद, जेसे बारिश की वो बूँद,\n" +
-        "जो मेहसूस तो होती है,\n" +
-        "पर पकड़ने पर अपना अस्तित्व खो देती है",
-        "पानी मे तेरा अक्स देख कर इतरा रहा था मैं,\n" +
-        "किसी ने पत्थर फेंककर, मंज़र बदल दिया",
-    ];
+        "मेरे दामन में काटों के सिवा कुछ भी नहीं\nआप फूलों के खरीदार नजर आते हैं",
+        "हर घूंट में तेरी यादें बसीं हैं\nकेसे कह दूँ, शराब कड़वी है",
+        "बेच दूँ क्या सारी परेशानियां?\nमौत अछा दाम दे रहीं है",
+        "थोड़ा इंतजार तो कर लेते\nदिल नहीं, मेरे दिन खराब थे",
+        "तुमारी याद, जेसे बारिश की वो बूँद,\nजो मेहसूस तो होती है,\nपर पकड़ने पर अपना अस्तित्व खो देती है",
+        "पानी मे तेरा अक्स देख कर इतरा रहा था मैं,\nकिसी ने पत्थर फेंककर, मंज़र बदल दिया",
+        "मैं भी इतना पागल उस चाँद से इश्क कर बैठा,\nजिसके चाहने वाले आज तो क्या सदियों से अनेक हैं",
+        "इन सितारों की महफिल मे\nऐ मेरे चाँद, तू खुद को अकेला मत मान,\nतेरे चाहने वाले अनेक हैं धरती पे",
+        "पहले चाँद सिर्फ़ आसमान मे दिखता था,\nपर अब तुमारी आखों मे भी दिखाई देता है",
+        "एक दफा देखने के बाद,\nएक दफा और देखने का मन करे,\nऐसा नशा हो तुम",
+        "आज फिर देखा किसी ने हमें मुहब्बत भरी निगाहों से,\nआज फिर हमनें तुमारी खातिर अपनी नजरें झुका ली",
+        "तुम्हारा इक नजर मुझे यूँ देखना, \nमानो उस शराब के प्याले की तरह है,\nजिसे पीकर जिंदगी के सारे ग़म भुला बैठता हूँ",
+        "साथ बैठकर तुमसे प्यार हो या ना हो,\nपर बातें काफी सारी हो जाएंगी"
+    ].sort(() => Math.random() - 0.5);
 </script>
 
 <main class="bg-zinc-800 h-screen">
@@ -24,18 +27,18 @@
         </div>
         <div class="flex-1"></div>
         <a class="hover:bg-zinc-600 rounded-full h-8 w-8" href="https://github.com/apgapg" target="_blank">
-          <i class="fab fa-github text-white text-2xl cursor-pointer "></i>
+            <i class="fab fa-github text-white text-2xl cursor-pointer "></i>
         </a>
-<div class="mx-2"></div>
+        <div class="mx-2"></div>
         <a class="hover:bg-zinc-600 rounded-full h-8 w-8" href="https://twitter.com/ayushpgupta" target="_blank">
-          <i class="fab fa-twitter text-white text-2xl cursor-pointer "></i>
+            <i class="fab fa-twitter text-white text-2xl cursor-pointer "></i>
         </a>
 
 
     </div>
     <div class=" bg-zinc-300 opacity-20 border-b"></div>
 
-    <div class="flex flex-wrap justify-center p-4 gap-4 overflow-y-auto">
+    <div class="flex flex-wrap justify-center p-4 gap-6 overflow-y-auto">
         {#each datas as data}
             <div
                     class="bg-zinc-700 overflow-hidden text-white shadow border border-zinc-600 text-center text-lg rounded-lg"
